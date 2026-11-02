@@ -26,7 +26,7 @@ Plusieurs services :
   - Client API : Il fait les requêtes vers l'API Rest RATP
   - "Moteur" graphique : Il gère l'affichage 
     - Gestionnaire des notifications : Il affiche les notifications , il est géré par le moteur graphique
-    - Gestionnaire des fenêtres : Il affiche et gère les fenêtres principales(formulaires et help)
+    - Gestionnaire des fenêtres : Il affiche et gère les fenêtres principales(formulaires et help) ,lui aussi est géré par le moteur graphique.
   - Gestionnaire des services : Il gèrera le lien entre les différents services(commande quoi afficher au Moteur graphique et demande au client de faire des requêtes)
     Ce dernier tournera en daemon et fera des "refresh" d'évènement chaque 5min (ceci peut être modifiable si on a le temps d'implementer cela ).
 
