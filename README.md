@@ -22,7 +22,7 @@ L'application **devrait**:
   - Proposer un itinéraire
     
 ## Conception logicielle
-Plusieurs services :
+Plusieurs "services" :
   - Client API : Il fait les requêtes vers l'API Rest RATP
   - "Moteur" graphique : Il gère l'affichage 
     - Gestionnaire des notifications : Il affiche les notifications , il est géré par le moteur graphique
