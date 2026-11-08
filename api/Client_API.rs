@@ -1,5 +1,5 @@
 //#[derive(Debug)]
-//pub mod Gestionnaire_de_services;
+
 
 pub struct ClientAPI{
 	url: String, //url de l'api
@@ -14,7 +14,7 @@ impl ClientAPI{
 		}
 	}
 	pub fn get_trajet(&self) {
-		//Ici on va implementer la fonction qui permet de recuperer le trajet final via l'api 	
+		//on va implementer la fonction qui permet de recuperer le trajet final via l'api 	
 		println!("yo I'm here : url= {} and api_key={}",self.url,self.api_key);	
 	}
 }
